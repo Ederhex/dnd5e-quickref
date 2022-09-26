@@ -8,10 +8,6 @@
 .section-container {
     border: 8px solid;
     border-radius: 8px;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
     box-sizing: border-box;
     position: relative;
     display: flex;
