@@ -11,12 +11,27 @@
     <link rel="stylesheet" type="text/css" href="css/icons.css">
     <!-- Javascript -->
     <script type="text/javascript" src="js/jquery/jquery.min.js" charset="utf-8"></script>
-</head>
-<body class="page-background">
-    <div class="page fontsize" data-size="fullscreen">
+    </head>
+    <body class="page-background">
+    <header>
+      <nav class="nav">
+        <a href="https://dnd.karscloud.nl" class="logo">DND.KARSCLOUD.NL</a>
 
-        <p><a href="index.html">Jump to the Brief Version of the D&D 5e Quick Reference</a></p>
-        
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="nav__link hide">
+          <a href="index.html">BRIEF</a>
+          <a href="expanded.html">EXPANDED</a>
+          <a href="credits.html">CREDITS</a>
+        </div>
+      </nav>
+    </header>
+        <div class="page fontsize" data-size="fullscreen">
+  
         <!-- Movement section -->
         <div id="section-movement" class="section-container">
             <div class="section-title">
@@ -412,5 +427,6 @@
     <Script type="text/javascript" src="js/data_multiclassing.js" charset="utf-8"></script>
     <Script type="text/javascript" src="js/data_xp.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/quickref.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/navbar.js" charset="utf-8"></script>
 </body>
 </html>
